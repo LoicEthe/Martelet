@@ -18,6 +18,12 @@ import { IconNavComponent } from './components/icon-nav/icon-nav.component';
   imports: [
     CommonModule,
     FontAwesomeModule
+  ],
+  exports:[
+    IconCloseComponent,
+    IconDeleteComponent,
+    IconEditComponent,
+    IconNavComponent
   ]
 })
 export class IconsModule { }
